@@ -1,0 +1,22 @@
+{
+  "name": "@lelogin/dsh-plugin",
+  "version": "0.1.1",
+  "description": "Use LeLogin CLI and Workspace to access credentials and authenticated business applications without exposing plaintext secrets.",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "skills"],
+  "keywords": ["deepseek-harness", "dsh-plugin", "dsh-skill", "lelogin"],
+  "license": "UNLICENSED",
+  "author": {
+  "name": "NationAuth",
+  "email": "support@nationauth.cn",
+  "url": "https://lelogin.nationauth.cn"
+},
+  "homepage": "https://lelogin.nationauth.cn",
+  "repository": {"type":"git","url":"https://github.com/zcmilan/lelogin-skill.git"},
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
